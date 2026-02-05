@@ -11,6 +11,9 @@ Projekt badawczy analizujący podatność sieci neuronowych (CNN) na ataki typu 
 
 ## Użycie
 `python gttsgen.py` - generujemy dataset
+
 `python makePosion.py` - generujemy zatrute próbki do trningu i testu
+
 `python train_model.py` - trenujemy model
+
 `python attack_model.py` - sprawdzamy skuteczność zatrutych sampli na wytrenowanym modelu
